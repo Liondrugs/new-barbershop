@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Записаться на стрижку</title>
+</head>
+<body>
+	<header class="main-header">
+      <h1 class="visually-hidden">Барбершоп Бородинский</h1>
+      <div class="main-header__logo">
+        <img src="" alt="">
+      </div>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__items">
+            <li class="main-nav__item  ">Главная</li>
+            <li  class="main-nav__item">Наши работы</li>
+            <li  class="main-nav__item main-nav__item--active">Записаться</li>
+            <li  class="main-nav__item">Контакты</li>
+            <li  class="main-nav__item">Html Academy</li>
+          </ul>
+          <ul class="main-nav__user-items">
+            <li class="main-nav__user-item"><a class="main-nav__user-login" href="" title="Войти">Вход</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+	<section class="form">
+		<H1 class="form__title">Запись на стрижку</H1>
+		<a class="form__home  btn" href="">На главную</a>
+		<form method="post">
+		<div class="form__user-info">
+			<p><input type="text" name="firstname" class="form__item" placeholder="Имя"></p>
+			<p><input type="text" name="lastname" class="form__item" placeholder="Фамилия"></p>
+			<p><input type="text" name="additional_name" class="form__item" placeholder="Отчество"></p>
+			<p><input type="tel" name="tel" class="form__item" placeholder="Контактный телефон"></p>
+			<p><input type="email" name="email" class="form__item" placeholder="Контактный email"></p>
+			<p><input type="textarea" name="information" class="form__item" placeholder="Доп. информация для мастера"></p>
+		</div>
+		<fieldset>
+			<legend>Выберите модель бороды:</legend>
+			<input type="radio" id="1#" name="beard-choice">
+			<label for="1#">1 борода</label>
+			<input type="radio" id="2#" name="beard-choice">
+			<label for="2#">2 борода</label>
+			<input type="radio" id="3#" name="beard-choice">
+			<label for="3#">3 борода</label>
+			<input type="radio" id="4#" name="beard-choice">
+			<label for="4#">4 борода</label>
+			<input type="radio" id="5#" name="beard-choice">
+			<label for="5#">5 борода</label>
+		</fieldset>
+		<fieldset>
+			<legend>Дополнительные услуги</legend>
+			<label><input type="checkbox" name="add_options" value="paint">Подкрасить бороду</label>
+			<label><input type="checkbox" name="add_options" value="Причесать бороду">Причесать бороду</label>
+			<label><input type="checkbox" name="add_options" value="Убрать седину">Убрать седину</label>
+			<label><input type="checkbox" name="add_options" value="Накрутить усы">Накрутить усы</label>
+			<label><input type="checkbox" name="add_options" value="Подровнять виски">Подровнять виски</label>
+			<label><input type="checkbox" name="add_options" value="отполировать лысину">отполировать лысину</label>
+		</fieldset>
+		<fieldset>
+			<input type="submit" value="Отправить заявку">
+		</fieldset>
+		</form>
+	</section>
+	    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="page-footer__contacts">
+          <b>Барбершоп «Бородинский»</b><br>
+          г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+          <a href="tel:+78125556666"><span class="page-footer__contacts-hidden">Тел.:</span> +7 (812) 555-66-66</a>
+        </p>
+        <p class="page-footer__social">
+          <span class="social-links">
+             <a class="social-link  social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+              <a class="social-link   social-link--fb" href="https://www.facebook.com/htmlacademy">Мы в Лицокниге</a>
+               <a class="social-link   social-link--in" href="https://www.instagram.com/htmlacademy">Мы в Инсте</a>
+          </span>
+        </p>
+        <p class="page-footer__copyright">
+          Разработано:
+           <a class="btn  page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </p>
+      </div>
+    </footer>
+</body>
+</html>
